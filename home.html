@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redintek Private Limited | Emerging Innovation Technology</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: #f7f8fa;
+            color: #333;
+            line-height: 1.6;
+            font-size: 16px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 5%;
+            background: linear-gradient(45deg, #007bff, #6610f2);
+            color: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #ddd;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .section__text {
+            padding: 5% 10%;
+            text-align: center;
+            background-color: #fff;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin: 2rem auto;
+            max-width: 1200px;
+        }
+
+        .label {
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            background: linear-gradient(45deg, #6610f2, #007bff);
+            color: white;
+            cursor: pointer;
+            margin-bottom: 20px;
+            font-weight: bold;
+            transition: background 0.3s ease;
+        }
+
+        .label:hover {
+            background: linear-gradient(45deg, #007bff, #6610f2);
+        }
+
+        .btn-color-2 {
+            border: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+        }
+
+        .btn-color-2:hover {
+            background-color: #0056b3;
+        }
+
+        .section__pic-container img {
+            width: 100%;
+            max-width: 500px;
+            margin-top: 20px;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+
+        .section__pic-container img:hover {
+            transform: scale(1.05);
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 2rem;
+            padding: 5%;
+        }
+
+        .content {
+            flex: 1;
+            min-width: 300px;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .content:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        h1, h4 {
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 2% 5%;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .footer h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .footer-links {
+            list-style: none;
+            padding: 0;
+            margin: 1rem 0;
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .footer-links a {
+            color: #bbb;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+
+        .footer-links a:hover {
+            color: white;
+        }
+
+        .footer p {
+            margin-top: 1rem;
+            font-size: 0.875rem;
+        }
+
+        @media only screen and (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .nav-links {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .section__text {
+                padding: 10%;
+            }
+
+            .container {
+                flex-direction: column;
+                padding: 10%;
+            }
+
+            .footer {
+                padding: 5%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">REDINTEK</div>
+        <ul class="nav-links">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#experience">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="profile">
+        <div class="section__text">
+            <button class="label">Best Solution we offer you</button>
+            <h1 class="title">Make a good plan for your business</h1>
+            <p>We have 5+ years of experience in helping with consulting services and business solutions.</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2">
+                    GET STARTED
+                </button>
+            </div>
+            <div class="section__pic-container">
+                <img src="./assets/redintak-profile.PNG" alt="Redintek profile picture" />
+            </div>
+        </div>
+
+        <div class="section__text">
+            <h1 class="title">5+ Years of Experience</h1>
+            <p><i>Redintek is a Tech Soul for your Business, providing exclusive IT solutions in the area of Software Design and Development. Our purpose is to deliver assurance of technology and human ingenuity.</i></p>
+        </div>
+
+        <div class="container">
+            <div class="content">
+                <h4>Services we can help you with</h4>
+                <p>Our range of services includes mobile app development, web design, digital marketing, and more.</p>
+            </div>
+            <div class="content">
+                <h4>Why you should choose us</h4>
+                <p>We have a dynamic team of creative experts ready to deliver innovative solutions tailored to your business needs.</p>
+            </div>
+        </div>
+
+        <div class="section__text">
+            <button class="label">WE ARE CREATIVE EXPERTS</button>
+            <h4>We are a dynamic team of creative designers and developers</h4>
+            <p>Redintek is a Tech Soul for your Business, providing exclusive IT solutions in the areas of software design, web development, cybersecurity, and digital marketing. We are continuously upgrading our capabilities to offer the best solutions and operational performance for our clients.</p>
+            <button class="btn-color-2">KNOW MORE</button>
+            <div class="section__pic-container">
+                <img src="./assets/home1.PNG" alt="Redintek showcase image" />
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="content">
+                <h4>WHY CHOOSE US</h4>
+                <p>We have professional engineers with excellent technical knowledge and skills in using the latest software technologies. We bring solutions that meet client needs, expectations, and budgets.</p>
+            </div>
+            <div class="content">
+                <h4>WHO WE ARE</h4>
+                <p>As a software company, we offer services including mobile app development, web development, web design, digital marketing, and cybersecurity. We have an excellent team that values the needs of businesses and provides the best solutions with leading technologies.</p>
+            </div>
+            <div class="content">
+                <h4>OUR VISION</h4>
+                <p>Our overarching vision is to consistently deliver software services of unparalleled effectiveness, setting the highest standards in the industry, and thereby ensuring the utmost satisfaction and value for our customers.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div>
+            <h3>Redintek Private Limited</
